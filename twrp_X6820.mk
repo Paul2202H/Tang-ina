@@ -24,7 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Inherit from Infinix-X6820 device
-$(call inherit-product, device/infinix/x6815/device.mk)
+$(call inherit-product, device/infinix/X6820/device.mk)
 
 # Inherit some common TWRP stuff
 $(call inherit-product, vendor/twrp/config/common.mk)
